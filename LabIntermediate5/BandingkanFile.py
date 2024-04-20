@@ -20,6 +20,7 @@ def bandingkan_file(basis_data, teks_random):
   for huruf in teks_random:
     if huruf not in basis_data:
       huruf_typo.append(huruf) #Tambahkan huruf yang tidak ada dalam basis data ke dalam list
+  huruf_typo = len(huruf_typo)
   return huruf_typo
 
 def main():
@@ -30,10 +31,8 @@ def main():
 
   basis_data = set(baca_file("./LabIntermediate5/File IO/words.txt")) #Membaca file words dan mengubahnya menjadi set agar program cepat tereksekusi
 
-  kumpulan_typo = bandingkan_file(basis_data, file_cerita)
-  kumpulan_typo = set(kumpulan_typo) #Mengubah kumpulan typo menjadi set agar tidak ada double kata yang salah
-  print("Kumpulan huruf typo dalam file itu, yaitu :")
-  for huruf in kumpulan_typo:
-    print(huruf) #Menampilkan kumpulan typo
+  jumlah_typo = bandingkan_file(basis_data, file_cerita)
+  print("Jumlah huruf typo dalam file itu, yaitu ", jumlah_typo)
+#Menampilkan jumlah huruf typo
 
 main()
