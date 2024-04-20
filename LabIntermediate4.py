@@ -1,5 +1,6 @@
 #fungsi main dilaksanakan
 import random
+import sys
 
 secretWord = ["software", "hardware", "internet", "database", "python", "programmer", "network", "security", "virus", "cyber", "hacker", "malware", "phishing", "spam",]
 jumlah_kalah = 0
@@ -25,7 +26,7 @@ def main_lagi(kalah, menang):
       hangman(kataRandom(secretWord), kalah, menang)  
     elif main_lagi == "n":
       print("Terima kasih telah bermain")
-      break
+      sys.exit()
     else :
       print("Input tidak valid")
       continue

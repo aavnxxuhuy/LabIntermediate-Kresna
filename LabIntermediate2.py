@@ -21,7 +21,7 @@ def main():
         print("Kamu sudah menebak huruf ini sebelumnya")
         continue
       elif ngulang <= 5 :
-        print("Kamu dah nebak ni tadi")
+        print("Kamu dah nebak nFi tadi")
         continue
       else  :
         print("Ganti tebakan hurufnya!")

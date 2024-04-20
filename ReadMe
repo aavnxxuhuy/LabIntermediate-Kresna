@@ -2,10 +2,16 @@ Nama     : I Dewa Made Adi Kresna
 Jurusan  : Software Engineering / DBT Uhuy
 NIM      : 23502310012
 
-Ini file untuk menjalankan permainan hangman yang memiliki kondisi nyawa 6 dan kata rahasianya "software"
+  A. Ini file untuk menjalankan permainan hangman yang memiliki kondisi nyawa 6 dan beberapa kata rahasia
+      Permainan Hangman ini menggunakan bahasa pemrograman python dan mekanisme enkripsi sederhana untuk kata yang akan ditebak. Kode ini pada akhirnya akan berjalan dengan mekanisme sebagai berikut :
+    1. Pemain akan menginput sebuah huruf
+    2. Program akan mengecheck huruf tersebut, apakah sudah benar hanya sebuah dan itu adalah huruf
+    3. Setelah itu, program akan mengecheck kembali apakah huruf itu sudah sesuai dengan kata rahasianya
+    4. Jika benar, maka huruf tersebut akan muncul pada display console dan hal tersebut akan looping sampai seluruh huruf kata rahasianya terjawab
+    5. Jika sudah benar kata ditebaknya, maka user akan diminta bermain terus hingga kumpulan katanya habis atau user meminta berhenti bermain
+    6. Namun jika salah, maka program akan menghitung berapa salah dan benarnya
 
-Permainan Hangman ini menggunakan bahasa pemrograman python dan mekanisme enkripsi sederhana untuk kata yang akan ditebak. Kode ini pada akhirnya akan berjalan dengan mekanisme sebagai berikut :
-  1. Pemain akan menginput sebuah huruf
-  2. Program akan mengecheck huruf tersebut, apakah sudah benar hanya sebuah dan itu adalah huruf
-  3. Setelah itu, program akan mengecheck kembali apakah huruf itu sudah sesuai dengan kata rahasianya
-  4. Jika benar, maka huruf tersebut akan muncul pada display console dan hal tersebut akan looping sampai seluruh huruf kata rahasianya terjawab
+
+  B. Materi file I/O 
+    1. Membuat tabel data dari harga ice cream berdasarkan varian dari beberapa toko
+    2. Membandingkan sebuah file dengan acuan file(kamusnya) 
