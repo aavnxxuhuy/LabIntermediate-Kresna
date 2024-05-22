@@ -15,3 +15,7 @@ NIM      : 23502310012
   B. Materi file I/O 
     1. Membuat tabel data dari harga ice cream berdasarkan varian dari beberapa toko
     2. Membandingkan sebuah file dengan acuan file(kamusnya) 
+
+
+  C. Materi Class and Object
+    1. Membuat class fraction dimana user akan diminta memasukkan dua angka, yang akan di check kedua angka tersebut
