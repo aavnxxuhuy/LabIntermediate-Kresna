@@ -10,12 +10,30 @@ NIM      : 23502310012
     4. Jika benar, maka huruf tersebut akan muncul pada display console dan hal tersebut akan looping sampai seluruh huruf kata rahasianya terjawab
     5. Jika sudah benar kata ditebaknya, maka user akan diminta bermain terus hingga kumpulan katanya habis atau user meminta berhenti bermain
     6. Namun jika salah, maka program akan menghitung berapa salah dan benarnya
+    7. Memastikan kode berjalan
 
 
   B. Materi file I/O 
     1. Membuat tabel data dari harga ice cream berdasarkan varian dari beberapa toko
     2. Membandingkan sebuah file dengan acuan file(kamusnya) 
-
+    3. Memastikan kode berjalan
 
   C. Materi Class and Object
-    1. Membuat class fraction dimana user akan diminta memasukkan dua angka, yang akan di check kedua angka tersebut
+    1. Membuat class fraction dimana user akan diminta memasukkan dua angka, yang akan di check kedua angka apakah int atau tidak dan akan dibuat dalam bentuk pecahan
+    2. Membuat itu menjadi satu kesatuan class yang sama
+    3. Memastikan kode berjalan
+
+  D. Lab 7
+    1. Membuat operasi matematika pada pecahan
+    2. Membuat akun bank yang memiliki nomor rekening dengan digit terakhir berbeda
+    3. Membuat list anggota keluarga yang dapat diubah dan ditampilkan secara keseluruhan
+    4. Memastikan kode berjalan
+
+  E. Lab 8
+    1. Membuat kode tic tac toe yang telah diberikan pada pertemuan sebelumnya namun dengan module tkinter sebagai output GUInya
+    2. Membuat atau memanipulasi kode yang telah ada agar sesuai ketentuan
+    3. Ketentuannya adalah sebagai berikut :
+      A. Meminta user memasukkan angka sebagai panjang sisi tic tac toenya
+      B. Meminta user memasukkan angka sebagai logika menang tic tac toenya
+      C. Memastikan bahwa input user adalah integer
+    4. Memastikan kode berjalan
