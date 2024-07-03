@@ -37,3 +37,9 @@ NIM      : 23502310012
       B. Meminta user memasukkan angka sebagai logika menang tic tac toenya
       C. Memastikan bahwa input user adalah integer
     4. Memastikan kode berjalan
+
+  F. Lab 9
+    1. Menghubungkan file dengan sebuah database melalui mysql.connector
+    2. Menggunakan Tkinter sebagai GUI
+    3. Membuat fungsi CRUD
+    4. Memastikan segalanya berjalan lancar
